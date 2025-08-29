@@ -471,7 +471,7 @@
             }
             
             /* Center the last card if it's alone in the row */
-            .equipment-card:last-child:nth-child(3n + 1) {
+            .equipment-card:last-child:nth-child(2n + 1) {
                 margin-left: auto;
                 margin-right: auto;
                 grid-column: 1 / -1;
@@ -838,7 +838,7 @@
     <!-- ABOUT -->
     <section id="about" class="about">
         <h2>About Us</h2>
-        <p>CREATOR@STUDIO is a unique creative and collaborative space in Brussels, designed for artists, entrepreneurs, and multimedia enthusiasts. Our studio combines creativity, visual innovation and technology to bring your projects to life. We provide a complete working environment with professional equipment: equipped photo and video studios, lighting, various backdrops, editing stations and graphic design tools. More than just a studio, it's a true multimedia playground where imagination becomes reality.</p>
+        <p>CREATORS STUDIO is a unique creative and collaborative space in Brussels, designed for artists, entrepreneurs, and multimedia enthusiasts. Our studio combines creativity, visual innovation and technology to bring your projects to life. We provide a complete working environment with professional equipment: equipped photo and video studios, lighting, various backdrops, editing stations and graphic design tools. More than just a studio, it's a true multimedia playground where imagination becomes reality.</p>
     </section>
 
     <!-- EQUIPMENT -->
@@ -902,21 +902,17 @@
         
         <div class="footer-container">
             <div class="footer-col">
-                <h3>CREATOR@STUDIO</h3>
+                <h3>CREATORS STUDIO</h3>
                 <p>A modern space for multimedia creation in Brussels. Photography, video, graphic design and post-production: everything is designed to support your creative projects from A to Z.</p>
+            </div>
+            <div class="footer-col">
+               
             </div>
             <div class="footer-col">
                 <h4>Contact</h4>
                 <p>Rue Zeyp 17, 1083 Ganshoren, Brussels</p>
                 <p><a href="tel:+32472191275">+32 472 19 12 75</a></p>
                 <p><a href="mailto:contact@creatorsstudio.be">contact@creatorsstudio.be</a></p>
-            </div>
-            <div class="footer-col">
-                <h4>Newsletter</h4>
-                <form class="newsletter">
-                    <input type="email" placeholder="Your email" required>
-                    <button type="submit">Subscribe</button>
-                </form>
             </div>
         </div>
         <div class="footer-bottom">
@@ -925,7 +921,8 @@
                 <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <p>CREATOR@STUDIO Brussels — Designed by Sight Consulting © 2025. All rights reserved.</p>
+            <p>CREATORs STUDIO Brussels — Designed by Sight Consulting © 2025. All rights reserved.</p>
+
         </div>
     </footer>
 
@@ -1035,7 +1032,7 @@
             aboutTitle: "About Us",
             equipmentTitle: "Equipment",
             contactTitle: "Contact",
-            aboutText: "CREATOR@STUDIO is a unique creative and collaborative space in Brussels, designed for artists, entrepreneurs, and multimedia enthusiasts. Our studio combines creativity, visual innovation and technology to bring your projects to life. We provide a complete working environment with professional equipment: equipped photo and video studios, lighting, various backdrops, editing stations and graphic design tools. More than just a studio, it's a true multimedia playground where imagination becomes reality.",
+            aboutText: "CREATORS STUDIO is a unique creative and collaborative space in Brussels, designed for artists, entrepreneurs, and multimedia enthusiasts. Our studio combines creativity, visual innovation and technology to bring your projects to life. We provide a complete working environment with professional equipment: equipped photo and video studios, lighting, various backdrops, editing stations and graphic design tools. More than just a studio, it's a true multimedia playground where imagination becomes reality.",
             equipmentText: "Discover our professional equipment for your creative projects:",
             namePlaceholder: "Name",
             emailPlaceholder: "Email",
@@ -1058,7 +1055,7 @@
             aboutTitle: "À propos",
             equipmentTitle: "Matériel et Équipements",
             contactTitle: "Contact",
-            aboutText: "CREATOR@STUDIO est un espace créatif et collaboratif unique à Bruxelles, pensé pour les artistes, entrepreneurs et passionnés de multimédia. Our studio combines créativité, innovation visuelle et technologie pour donner vie à vos projets. Nous mettons à disposition un environnement complet de travail avec du matériel professionnel : studios photo et vidéo équipés, éclairages, fonds variés, stations de montage et outils de design graphique. Plus qu'un simple studio, c'est un véritable terrain de jeu multimédia où l'imagination devient réalité.",
+            aboutText: "CREATORS STUDIO est un espace créatif et collaboratif unique à Bruxelles, pensé pour les artistes, entrepreneurs et passionnés de multimédia. Our studio combines créativité, innovation visuelle et technologie pour donner vie à vos projets. Nous mettons à disposition un environnement complet de travail avec du matériel professionnel : studios photo et vidéo équipés, éclairages, fonds variés, stations de montage et outils de design graphique. Plus qu'un simple studio, c'est un véritable terrain de jeu multimédia où l'imagination devient réalité.",
             equipmentText: "Découvrez notre matériel professionnel pour vos projets créatifs :",
             namePlaceholder: "Nom",
             emailPlaceholder: "Email",
@@ -1117,7 +1114,7 @@
             document.querySelector('.newsletter input').placeholder = content.newsletterPlaceholder;
             document.querySelector('.newsletter button').textContent = content.subscribeButton;
             
-            document.querySelector('.footer-bottom p').innerHTML = `&copy; 2025 CREATOR@STUDIO Brussels. ${content.rights}`;
+            document.querySelector('.footer-bottom p').innerHTML = `&copy; 2025 CREATORS STUDIO Brussels. ${content.rights}`;
             
             // Update active button
             if (lang === 'en') {
